@@ -1,0 +1,12 @@
+<html>
+<body>
+    <p>Hello the owner of {{ email }},</p>
+    <p>Click the link below to confirm your email address:</p>
+    <p>
+        <a href="{{ frontend_url }}/confirm-email?token={{ token }}">
+            Confirm Email
+        </a>
+    </p>
+    <p>This link will expire in 1 hour.</p>
+</body>
+</html>
